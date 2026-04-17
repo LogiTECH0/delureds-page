@@ -68,7 +68,7 @@ function App() {
         <div className="projects team container">
           {teamprojects.map((project) => (
             <TeamProject
-              projectName={project.name}
+              projectName={project.name} 
               projectLink={project.link}
               projectDescription={project.description}
               projectIMG={project.img}
